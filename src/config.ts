@@ -4,6 +4,7 @@ export const siteConfig = {
   description:
     "Full Stack Software Engineer specializing in scalable web applications, cloud-native architectures, and AI-powered backend systems.",
   accentColor: "#1d4ed8",
+  profileImage: "/rajesh.jpg",
 
   social: {
     email: "rajeshkh704435@gmail.com",
