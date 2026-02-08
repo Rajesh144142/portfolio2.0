@@ -14,7 +14,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "I am a Full Stack Software Engineer with experience in building scalable, production-grade systems using React, Node.js, and Python. My expertise includes cloud infrastructure on AWS, backend engineering with FastAPI and Express, AI-driven workflows using AutoGen, and performance-focused system design. I enjoy designing clean APIs, optimizing distributed systems, and building reliable products at scale.",
+    "Full Stack Software Engineer who designs and builds scalable, production-grade systems from the ground up. Strong individual contributor with proven experience leading cross-functional teams to deliver solutions at scale. Gen AI enthusiast passionate about integrating intelligent automation into enterprise applications.",
 
   skills: [
     // Languages
@@ -45,7 +45,7 @@ export const siteConfig = {
     "AWS RDS",
     "DynamoDB",
     "TypeORM",
-    "Prisma",
+    "Sequelize",
 
     // Cloud & DevOps
     "AWS EC2",
@@ -54,6 +54,7 @@ export const siteConfig = {
     "AWS API Gateway",
     "AWS Amplify",
     "Docker",
+    "Kubernetes",
     "Nginx",
 
     // Messaging & Streaming
@@ -62,6 +63,12 @@ export const siteConfig = {
     // AI & Automation
     "AutoGen",
     "Agentic AI",
+    "LangChain",
+    "LangGraph",
+    "RAG",
+    "Fine-tuning",
+    "Agents",
+    "LLMs",
 
     // Tools
     "Git",
@@ -125,9 +132,10 @@ export const siteConfig = {
       title: "Associate Software Engineer",
       dateRange: "Mar 2025 – Present",
       bullets: [
-        "Built and optimized Python-based media processing pipelines handling 50K+ assets using AWS S3 and EC2.",
-        "Developed backend services with Node.js using TypeORM and Prisma with PostgreSQL on AWS RDS.",
-        "Designed and deployed internal tools using Docker and Nginx, improving system reliability and performance.",
+        "Led migration for Gemsocean by writing Python scripts for automated media pipeline to process 50K+ images to AWS S3, transitioning from SKU-based to BC item-based identifiers with performance optimization via streaming, batching, and controlled parallelism.",
+        "Contributed to B2B website for Gabriel using Node.js, developing frontend and backend business logic for Gabriel University and BA goals modules, including simplified reward flow. Built job-based server scripts for Zoho CRM data synchronization with PostgreSQL.",
+        "Engineered end-to-end Employee Management Tool (CBM) using React.js and Node.js/Express with PostgreSQL, implementing RBAC, custom RESTful APIs, and SendGrid API integration—reducing manual follow-ups by 40% for 500+ users.",
+        "Built transcribing tool using OpenAI Whisper model with Python, enabling automated audio-to-text conversion for enterprise workflows.",
       ],
     },
     {
@@ -135,9 +143,10 @@ export const siteConfig = {
       title: "Full Stack Engineer",
       dateRange: "Sep 2024 – Mar 2025",
       bullets: [
-        "Architected FastAPI microservices with Kafka-based event processing for transaction monitoring.",
-        "Integrated AutoGen-powered agent workflows for intelligent negative news detection.",
-        "Deployed production systems on AWS EC2 with Dockerized services and Nginx reverse proxy.",
+        "Architected Inventic.ai V1 platform using Python and FastAPI, implementing transaction monitoring logic and constructing custom debugging tools. Integrated Agentic AI (AutoGen) APIs for intelligent negative news detection with enterprise-grade monitoring capabilities.",
+        "Designed automated BRSR generation system for Black Rhino using Python backend, creating workflow that processes data through AutoGen agents to generate structured reports. Built FastAPI microservices with cronjob-based automated data fetching—reducing manual effort by 50%.",
+        "Implemented RAG (Retrieval-Augmented Generation) pipelines and fine-tuning workflows for LLM models, enabling context-aware agent systems for intelligent document processing and analysis.",
+        "Deployed production systems on AWS EC2 with Dockerized services and Nginx reverse proxy, ensuring high availability and scalable infrastructure.",
       ],
     },
     {
@@ -145,8 +154,8 @@ export const siteConfig = {
       title: "Full Stack Developer Intern",
       dateRange: "Mar 2024 – Sep 2024",
       bullets: [
-        "Implemented backend services using Node.js and PostgreSQL with Prisma ORM.",
-        "Worked on secure API integrations and performance optimization in a fintech environment.",
+        "Spearheaded loan processing system development including KYC, credit scoring via third-party APIs, and disbursement—achieving 40% reduction in processing time.",
+        "Designed key features in scalable admin dashboard for Midland, enhancing user experience and contributing to 25% efficiency boost.",
       ],
     },
   ],
