@@ -132,22 +132,6 @@ export const siteConfig = {
         "Nginx",
       ],
     },
-    {
-      name: "Black Rhino – Automated BRSR System",
-      description:
-        "AI-driven BRSR report generation system using AutoGen agents and FastAPI microservices with scheduled workflows.",
-      link: "",
-      skills: [
-        "Python",
-        "FastAPI",
-        "AutoGen",
-        "Agentic AI",
-        "Kafka",
-        "AWS EC2",
-        "AWS S3",
-        "Docker",
-      ],
-    },
   ],
 
   experience: [
