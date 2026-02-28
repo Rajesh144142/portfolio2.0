@@ -15,6 +15,12 @@ export const siteConfig = {
 
   aboutMe:
     "Full Stack Software Engineer who designs and builds scalable, production-grade systems from the ground up. Strong individual contributor with proven experience leading cross-functional teams to deliver solutions at scale. Gen AI enthusiast passionate about integrating intelligent automation into enterprise applications.",
+  freelance: {
+    title: "Open To Freelance Projects",
+    description:
+      "Currently available to start freelance projects across full-stack web development, backend systems, and AI-powered product features.",
+    ctaText: "Start a Project",
+  },
 
   skills: [
     // Languages

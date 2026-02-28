@@ -1,0 +1,32 @@
+---
+import { siteConfig } from "../config";
+
+const hasFreelance = !!siteConfig.freelance;
+---
+
+{
+  hasFreelance && (
+    <section id="freelance" class="p-8 sm:p-12 md:p-16 lg:p-24">
+      <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 sm:p-8 md:p-10">
+        <div class="max-w-4xl">
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
+            {siteConfig.freelance.title}
+          </h2>
+          <div
+            class="w-[75px] h-[5px] mt-2 rounded-full"
+            style={`background-color: ${siteConfig.accentColor}`}
+          />
+          <p class="mt-6 text-lg sm:text-xl leading-relaxed text-gray-600">
+            {siteConfig.freelance.description}
+          </p>
+          <a
+            href={`mailto:${siteConfig.social.email}`}
+            class="inline-flex mt-8 items-center rounded-lg bg-gray-900 px-5 py-3 text-sm sm:text-base font-semibold text-white transition-colors duration-200 hover:bg-gray-700"
+          >
+            {siteConfig.freelance.ctaText}
+          </a>
+        </div>
+      </div>
+    </section>
+  )
+}
