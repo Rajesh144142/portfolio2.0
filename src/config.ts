@@ -27,6 +27,9 @@ export const siteConfig = {
 
     // Frontend
     "React",
+    "Vite",
+    "TanStack Query",
+    "Zustand",
     "Redux",
     "Tailwind CSS",
     "Material UI",
@@ -37,6 +40,8 @@ export const siteConfig = {
     "FastAPI",
     "REST APIs",
     "WebSockets",
+    "JWT",
+    "Rate Limiting",
 
     // Databases & ORM
     "PostgreSQL",
@@ -65,6 +70,7 @@ export const siteConfig = {
     "Agentic AI",
     "LangChain",
     "LangGraph",
+    "OpenRouter",
     "RAG",
     "Fine-tuning",
     "Agents",
@@ -77,6 +83,24 @@ export const siteConfig = {
   ],
 
   projects: [
+    {
+      name: "CodeQuest AI",
+      description:
+        "Adaptive coding learning app for beginners with React + TypeScript frontend and FastAPI backend using LangChain with openai/gpt-4o-mini. Features step-based learning for C++ and Python, dynamic difficulty progression, JWT auth, and daily rate limiting. Live: code-quest-ai.vercel.app | GitHub: github.com/Rajesh144142/CodeQuest-AI",
+      link: "https://code-quest-ai.vercel.app/",
+      skills: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "TanStack Query",
+        "Zustand",
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "JWT",
+      ],
+    },
     {
       name: "TaskFlow Pro",
       description:
