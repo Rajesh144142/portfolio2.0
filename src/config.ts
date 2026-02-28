@@ -20,6 +20,9 @@ export const siteConfig = {
     description:
       "Currently available to start freelance projects across full-stack web development, backend systems, and AI-powered product features.",
     ctaText: "Start a Project",
+    ctaSubject: "Freelance Project Inquiry",
+    ctaBody:
+      "Hi Rajesh,\n\nI have a project opportunity and would like to discuss scope, timeline, and budget.\n\nProject details:\n-\n\nThanks,",
   },
 
   skills: [

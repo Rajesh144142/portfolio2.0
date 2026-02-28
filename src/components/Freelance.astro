@@ -2,6 +2,11 @@
 import { siteConfig } from "../config";
 
 const hasFreelance = !!siteConfig.freelance;
+const mailtoHref = hasFreelance
+  ? `mailto:${siteConfig.social.email}?subject=${encodeURIComponent(
+      siteConfig.freelance.ctaSubject || "Freelance Project Inquiry",
+    )}&body=${encodeURIComponent(siteConfig.freelance.ctaBody || "")}`
+  : `mailto:${siteConfig.social.email}`;
 ---
 
 {
@@ -20,7 +25,7 @@ const hasFreelance = !!siteConfig.freelance;
             {siteConfig.freelance.description}
           </p>
           <a
-            href={`mailto:${siteConfig.social.email}`}
+            href={mailtoHref}
             class="inline-flex mt-8 items-center rounded-lg bg-gray-900 px-5 py-3 text-sm sm:text-base font-semibold text-white transition-colors duration-200 hover:bg-gray-700"
           >
             {siteConfig.freelance.ctaText}
